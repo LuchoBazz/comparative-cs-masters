@@ -40,6 +40,40 @@
     ]
   },
   {
+    "city": "Berlin",
+    "price_index": 124,
+    "universities": [
+      {
+        "name": "Technical University of Berlin",
+        "ranking": 13
+      },
+      {
+        "name": "Charite - Medical University of Berlin",
+        "ranking": 18
+      },
+      {
+        "name": "Free University of Berlin",
+        "ranking": 19
+      },
+      {
+        "name": "Humboldt University of Berlin",
+        "ranking": 20
+      },
+      {
+        "name": "Berlin School of Economics and Law",
+        "ranking": 93
+      },
+      {
+        "name": "Berlin Technical University of Applied Sciences",
+        "ranking": 94
+      },
+      {
+        "name": "Berlin University of Applied Sciences",
+        "ranking": 96
+      }
+    ]
+  },
+  {
     "city": "Bielefeld",
     "universities": [
       {
