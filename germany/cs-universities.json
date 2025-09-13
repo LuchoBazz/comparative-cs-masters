@@ -1,0 +1,756 @@
+[
+  {
+    "city": "Aachen",
+    "universities": [
+      {
+        "name": "RWTH Aachen University",
+        "ranking": 4
+      },
+      {
+        "name": "Aachen University of Applied Sciences",
+        "ranking": 69
+      }
+    ]
+  },
+  {
+    "city": "Augsburg",
+    "universities": [
+      {
+        "name": "University of Augsburg",
+        "ranking": 55
+      }
+    ]
+  },
+  {
+    "city": "Bamberg",
+    "universities": [
+      {
+        "name": "University of Bamberg",
+        "ranking": 71
+      }
+    ]
+  },
+  {
+    "city": "Bayreuth",
+    "universities": [
+      {
+        "name": "University of Bayreuth",
+        "ranking": 51
+      }
+    ]
+  },
+  {
+    "city": "Bielefeld",
+    "universities": [
+      {
+        "name": "University of Bielefeld",
+        "ranking": 35
+      }
+    ]
+  },
+  {
+    "city": "Bingen",
+    "universities": [
+      {
+        "name": "TH Bingen University of Applied Sciences",
+        "ranking": 90
+      }
+    ]
+  },
+  {
+    "city": "Bonn",
+    "price_index": 113,
+    "universities": [
+      {
+        "name": "University of Bonn",
+        "ranking": 10
+      }
+    ]
+  },
+  {
+    "city": "Bochum",
+    "universities": [
+      {
+        "name": "Ruhr University Bochum",
+        "ranking": 17
+      }
+    ]
+  },
+  {
+    "city": "Braunschweig",
+    "universities": [
+      {
+        "name": "Braunschweig University of Technology",
+        "ranking": 37
+      }
+    ]
+  },
+  {
+    "city": "Bremen City",
+    "universities": [
+      {
+        "name": "University of Bremen",
+        "ranking": 33
+      },
+      {
+        "name": "Jacobs University Bremen",
+        "ranking": 56
+      }
+    ]
+  },
+  {
+    "city": "Chemnitz",
+    "universities": [
+      {
+        "name": "Chemnitz University of Technology",
+        "ranking": 59
+      }
+    ]
+  },
+  {
+    "city": "Clausthal-Zellerfeld",
+    "universities": [
+      {
+        "name": "Clausthal University of Technology",
+        "ranking": 72
+      }
+    ]
+  },
+  {
+    "city": "Cologne",
+    "price_index": 118,
+    "universities": [
+      {
+        "name": "University of Cologne",
+        "ranking": 23
+      },
+      {
+        "name": "German Sport University Cologne",
+        "ranking": 80
+      },
+      {
+        "name": "Cologne University of Applied Sciences",
+        "ranking": 87
+      }
+    ]
+  },
+  {
+    "city": "Dresden",
+    "price_index": 96,
+    "universities": [
+      {
+        "name": "Dresden University of Technology",
+        "ranking": 14
+      }
+    ]
+  },
+  {
+    "city": "Darmstadt",
+    "price_index": 107,
+    "universities": [
+      {
+        "name": "Darmstadt University of Technology",
+        "ranking": 15
+      },
+      {
+        "name": "Darmstadt University of Applied Sciences",
+        "ranking": 66
+      }
+    ]
+  },
+  {
+    "city": "Dortmund",
+    "price_index": 101,
+    "universities": [
+      {
+        "name": "TU Dortmund University",
+        "ranking": 22
+      }
+    ]
+  },
+  {
+    "city": "Dusseldorf",
+    "price_index": 115,
+    "universities": [
+      {
+        "name": "Heinrich Heine University of Dusseldorf",
+        "ranking": 21
+      }
+    ]
+  },
+  {
+    "city": "Eichstatt",
+    "universities": [
+      {
+        "name": "Catholic University of Eichstatt-Ingolstadt",
+        "ranking": 84
+      }
+    ]
+  },
+  {
+    "city": "Erlangen",
+    "universities": [
+      {
+        "name": "University of Erlangen Nuremberg",
+        "ranking": 8
+      }
+    ]
+  },
+  {
+    "city": "Erfurt",
+    "universities": [
+      {
+        "name": "University of Erfurt",
+        "ranking": 86
+      }
+    ]
+  },
+  {
+    "city": "Essen",
+    "price_index": 100,
+    "universities": [
+      {
+        "name": "University of Duisburg - Essen",
+        "ranking": 32
+      },
+      {
+        "name": "Folkwang University of the Arts",
+        "ranking": 83
+      }
+    ]
+  },
+  {
+    "city": "Freiberg",
+    "universities": [
+      {
+        "name": "Freiberg University of Technology",
+        "ranking": 75
+      }
+    ]
+  },
+  {
+    "city": "Freiburg im Breisgau",
+    "price_index": 106,
+    "universities": [
+      {
+        "name": "University of Freiburg",
+        "ranking": 6
+      }
+    ]
+  },
+  {
+    "city": "Frankfurt",
+    "price_index": 129,
+    "universities": [
+      {
+        "name": "Goethe University of Frankfurt am Main",
+        "ranking": 11
+      },
+      {
+        "name": "European University Viadrina",
+        "ranking": 91
+      },
+      {
+        "name": "Frankfurt University of Applied Sciences",
+        "ranking": 95
+      }
+    ]
+  },
+  {
+    "city": "Friedrichshafen",
+    "universities": [
+      {
+        "name": "Zeppelin University",
+        "ranking": 100
+      }
+    ]
+  },
+  {
+    "city": "Giessen",
+    "universities": [
+      {
+        "name": "University of Giessen",
+        "ranking": 44
+      }
+    ]
+  },
+  {
+    "city": "Gottingen",
+    "universities": [
+      {
+        "name": "University of Gottingen",
+        "ranking": 12
+      }
+    ]
+  },
+  {
+    "city": "Greifswald",
+    "universities": [
+      {
+        "name": "University of Greifswald",
+        "ranking": 64
+      }
+    ]
+  },
+  {
+    "city": "Hamburg City",
+    "universities": [
+      {
+        "name": "University of Hamburg",
+        "ranking": 5
+      },
+      {
+        "name": "Hamburg University of Technology",
+        "ranking": 52
+      },
+      {
+        "name": "Hamburg University of Applied Sciences",
+        "ranking": 85
+      },
+      {
+        "name": "University of the Federal Armed Forces Hamburg",
+        "ranking": 79
+      }
+    ]
+  },
+  {
+    "city": "Halle",
+    "universities": [
+      {
+        "name": "Martin Luther University of Halle-Wittenberg",
+        "ranking": 50
+      }
+    ]
+  },
+  {
+    "city": "Hagen",
+    "universities": [
+      {
+        "name": "University of Hagen",
+        "ranking": 67
+      }
+    ]
+  },
+  {
+    "city": "Hanover",
+    "universities": [
+      {
+        "name": "Leibniz University of Hanover",
+        "ranking": 39
+      },
+      {
+        "name": "Hannover Medical School",
+        "ranking": 43
+      },
+      {
+        "name": "University of Veterinary Medicine Hannover",
+        "ranking": 78
+      }
+    ]
+  },
+  {
+    "city": "Heidelberg",
+    "universities": [
+      {
+        "name": "Heidelberg University - Germany",
+        "ranking": 2
+      }
+    ]
+  },
+  {
+    "city": "Hildesheim",
+    "universities": [
+      {
+        "name": "University of Hildesheim",
+        "ranking": 77
+      }
+    ]
+  },
+  {
+    "city": "Ilmenau",
+    "universities": [
+      {
+        "name": "Ilmenau University of Technology",
+        "ranking": 60
+      }
+    ]
+  },
+  {
+    "city": "Jena",
+    "universities": [
+      {
+        "name": "Friedrich Schiller University of Jena",
+        "ranking": 31
+      }
+    ]
+  },
+  {
+    "city": "Kaiserslautern",
+    "universities": [
+      {
+        "name": "Technical University of Kaiserslautern",
+        "ranking": 46
+      }
+    ]
+  },
+  {
+    "city": "Kassel",
+    "universities": [
+      {
+        "name": "University of Kassel",
+        "ranking": 53
+      }
+    ]
+  },
+  {
+    "city": "Kiel",
+    "universities": [
+      {
+        "name": "Kiel University",
+        "ranking": 29
+      }
+    ]
+  },
+  {
+    "city": "Karlsruhe",
+    "price_index": 113,
+    "universities": [
+      {
+        "name": "Karlsruhe Institute of Technology",
+        "ranking": 7
+      },
+      {
+        "name": "Karlsruhe University of Applied Sciences",
+        "ranking": 88
+      }
+    ]
+  },
+  {
+    "city": "Koblenz",
+    "universities": [
+      {
+        "name": "University of Koblenz-Landau",
+        "ranking": 68
+      },
+      {
+        "name": "University of Applied Science Koblenz",
+        "ranking": 97
+      }
+    ]
+  },
+  {
+    "city": "Konstanz",
+    "universities": [
+      {
+        "name": "University of Konstanz",
+        "ranking": 41
+      }
+    ]
+  },
+  {
+    "city": "Luneburg",
+    "universities": [
+      {
+        "name": "Leuphana University of Luneburg",
+        "ranking": 73
+      }
+    ]
+  },
+  {
+    "city": "Leipzig",
+    "universities": [
+      {
+        "name": "University of Leipzig",
+        "ranking": 28
+      }
+    ]
+  },
+  {
+    "city": "Lubeck",
+    "universities": [
+      {
+        "name": "University of Lubeck",
+        "ranking": 40
+      }
+    ]
+  },
+  {
+    "city": "Magdeburg",
+    "universities": [
+      {
+        "name": "Otto von Guericke University of Magdeburg",
+        "ranking": 36
+      }
+    ]
+  },
+  {
+    "city": "Mainz",
+    "universities": [
+      {
+        "name": "Johannes Gutenberg University Mainz",
+        "ranking": 25
+      },
+      {
+        "name": "Mainz University of Applied Sciences",
+        "ranking": 92
+      }
+    ]
+  },
+  {
+    "city": "Mannheim",
+    "universities": [
+      {
+        "name": "University of Mannheim",
+        "ranking": 45
+      }
+    ]
+  },
+  {
+    "city": "Marburg",
+    "universities": [
+      {
+        "name": "University of Marburg",
+        "ranking": 34
+      }
+    ]
+  },
+  {
+    "city": "Merseburg",
+    "universities": [
+      {
+        "name": "Merseburg University of Applied Sciences",
+        "ranking": 89
+      }
+    ]
+  },
+  {
+    "city": "Munich",
+    "price_index": 135,
+    "universities": [
+      {
+        "name": "Technical University of Munich",
+        "ranking": 1
+      },
+      {
+        "name": "University of Munich",
+        "ranking": 3
+      },
+      {
+        "name": "Munich University of Applied Sciences",
+        "ranking": 81
+      }
+    ]
+  },
+  {
+    "city": "Neubiberg",
+    "universities": [
+      {
+        "name": "Munich University of the Federal Armed Forces",
+        "ranking": 61
+      }
+    ]
+  },
+  {
+    "city": "Munster",
+    "universities": [
+      {
+        "name": "University of Munster",
+        "ranking": 26
+      }
+    ]
+  },
+  {
+    "city": "Oldenburg",
+    "universities": [
+      {
+        "name": "Carl von Ossietzky University of Oldenburg",
+        "ranking": 49
+      }
+    ]
+  },
+  {
+    "city": "Osnabruck",
+    "universities": [
+      {
+        "name": "Osnabruck University",
+        "ranking": 58
+      }
+    ]
+  },
+  {
+    "city": "Passau",
+    "universities": [
+      {
+        "name": "University of Passau",
+        "ranking": 62
+      }
+    ]
+  },
+  {
+    "city": "Paderborn",
+    "universities": [
+      {
+        "name": "University of Paderborn",
+        "ranking": 47
+      }
+    ]
+  },
+  {
+    "city": "Potsdam",
+    "universities": [
+      {
+        "name": "University of Potsdam",
+        "ranking": 38
+      }
+    ]
+  },
+  {
+    "city": "Regensburg",
+    "price_index": 104,
+    "universities": [
+      {
+        "name": "University of Regensburg",
+        "ranking": 42
+      }
+    ]
+  },
+  {
+    "city": "Reutlingen",
+    "universities": [
+      {
+        "name": "Reutlingen University",
+        "ranking": 98
+      }
+    ]
+  },
+  {
+    "city": "Rostock",
+    "universities": [
+      {
+        "name": "University of Rostock",
+        "ranking": 48
+      }
+    ]
+  },
+  {
+    "city": "Saarbrucken",
+    "universities": [
+      {
+        "name": "Saarland University",
+        "ranking": 27
+      }
+    ]
+  },
+  {
+    "city": "Senftenberg",
+    "universities": [
+      {
+        "name": "Brandenburg University of Technology Cottbus - Senftenberg",
+        "ranking": 74
+      }
+    ]
+  },
+  {
+    "city": "Siegen",
+    "universities": [
+      {
+        "name": "University of Siegen",
+        "ranking": 57
+      }
+    ]
+  },
+  {
+    "city": "Stuttgart",
+    "universities": [
+      {
+        "name": "University of Stuttgart",
+        "ranking": 16
+      },
+      {
+        "name": "University of Hohenheim",
+        "ranking": 65
+      }
+    ]
+  },
+  {
+    "city": "Trier",
+    "universities": [
+      {
+        "name": "University of Trier",
+        "ranking": 63
+      }
+    ]
+  },
+  {
+    "city": "Tubingen",
+    "universities": [
+      {
+        "name": "University of Tubingen",
+        "ranking": 9
+      }
+    ]
+  },
+  {
+    "city": "Ulm",
+    "universities": [
+      {
+        "name": "University of Ulm",
+        "ranking": 30
+      }
+    ]
+  },
+  {
+    "city": "Vallendar",
+    "universities": [
+      {
+        "name": "WHU - Otto Beisheim School of Management",
+        "ranking": 82
+      }
+    ]
+  },
+  {
+    "city": "Wiesbaden",
+    "universities": [
+      {
+        "name": "EBS University for business and law",
+        "ranking": 99
+      }
+    ]
+  },
+  {
+    "city": "Weimar",
+    "universities": [
+      {
+        "name": "Bauhaus - University Weimar",
+        "ranking": 70
+      }
+    ]
+  },
+  {
+    "city": "Witten",
+    "universities": [
+      {
+        "name": "Witten/Herdecke University",
+        "ranking": 76
+      }
+    ]
+  },
+  {
+    "city": "Wuppertal",
+    "universities": [
+      {
+        "name": "University of Wuppertal",
+        "ranking": 54
+      }
+    ]
+  },
+  {
+    "city": "Wurzburg",
+    "universities": [
+      {
+        "name": "University of Wurzburg",
+        "ranking": 24
+      }
+    ]
+  }
+]
