@@ -10,7 +10,11 @@
         "name": "Aachen University of Applied Sciences",
         "ranking": 69
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 659,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Augsburg",
@@ -71,7 +75,11 @@
         "name": "Berlin University of Applied Sciences",
         "ranking": 96
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1220,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Bielefeld",
@@ -99,7 +107,11 @@
         "name": "University of Bonn",
         "ranking": 10
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 866,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Bochum",
@@ -166,7 +178,11 @@
         "name": "Cologne University of Applied Sciences",
         "ranking": 87
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1027,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Dresden",
@@ -176,7 +192,11 @@
         "name": "Dresden University of Technology",
         "ranking": 14
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 766,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Darmstadt",
@@ -190,7 +210,11 @@
         "name": "Darmstadt University of Applied Sciences",
         "ranking": 66
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 818,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Dortmund",
@@ -200,7 +224,11 @@
         "name": "TU Dortmund University",
         "ranking": 22
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 690,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Dusseldorf",
@@ -210,7 +238,11 @@
         "name": "Heinrich Heine University of Dusseldorf",
         "ranking": 21
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 991,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Eichstatt",
@@ -228,7 +260,11 @@
         "name": "University of Erlangen Nuremberg",
         "ranking": 8
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 818,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Erfurt",
@@ -251,7 +287,11 @@
         "name": "Folkwang University of the Arts",
         "ranking": 83
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 634,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Freiberg",
@@ -270,7 +310,11 @@
         "name": "University of Freiburg",
         "ranking": 6
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1033,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Frankfurt",
@@ -288,7 +332,11 @@
         "name": "Frankfurt University of Applied Sciences",
         "ranking": 95
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1283,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Friedrichshafen",
@@ -380,7 +428,11 @@
         "name": "University of Veterinary Medicine Hannover",
         "ranking": 78
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 906,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Heidelberg",
@@ -389,7 +441,11 @@
         "name": "Heidelberg University - Germany",
         "ranking": 2
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1023,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Hildesheim",
@@ -457,7 +513,11 @@
         "name": "Karlsruhe University of Applied Sciences",
         "ranking": 88
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 877,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Koblenz",
@@ -497,7 +557,11 @@
         "name": "University of Leipzig",
         "ranking": 28
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 721,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Lubeck",
@@ -537,7 +601,11 @@
         "name": "University of Mannheim",
         "ranking": 45
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 741,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Marburg",
@@ -573,7 +641,11 @@
         "name": "Munich University of Applied Sciences",
         "ranking": 81
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1436,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Neubiberg",
@@ -673,7 +745,11 @@
         "name": "Saarland University",
         "ranking": 27
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 486,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Senftenberg",
@@ -704,7 +780,11 @@
         "name": "University of Hohenheim",
         "ranking": 65
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 1115,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Trier",
@@ -713,7 +793,11 @@
         "name": "University of Trier",
         "ranking": 63
       }
-    ]
+    ],
+    "average_monthly_rent": {
+      "price": 780,
+      "currency": "EUR"
+    }
   },
   {
     "city": "Tubingen",
