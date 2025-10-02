@@ -1,3 +1,5 @@
+## DeepSeek and ChatGPT
+
 #### **Step 1: Install the Necessary Packages**
 
 Open your terminal or command prompt and run:
@@ -18,3 +20,15 @@ pip install requests
    ```env
    DEEPSEEK_API_KEY="your_api_key_here"
    ```
+
+## Google Gemini
+
+#### **Step 1: Install the Necessary Packages**
+
+Open your terminal or command prompt and run:
+
+```bash
+pip install google-genai
+```
+
+https://aistudio.google.com/app/u/1/api-keys
