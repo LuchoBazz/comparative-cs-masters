@@ -51,7 +51,7 @@ You are a web-research assistant. Use ONLY official university webpages (officia
    - tuition per year (converted to EUR as a NUMBER),
    - master duration in semesters (NUMBER),
    - required English proficiency level (one of: A1, A2, B1, B2, C1, C2 or None),
-   - up to 3 official URLs that explicitly verify the tuition fee.
+   - up to 2 official URLs that explicitly verify the tuition fee.
 
 2) Convert any tuition/fee amounts to euros using a current, authoritative exchange rate (e.g., ECB) and round to the nearest euro. If the page lists tuition per semester, convert to per year.
 
@@ -118,6 +118,7 @@ def query_university(university: str, model: str) -> str:
         content = response.choices[0].message.content
         return clean_content(content)
     except Exception as e:
+        print(f"[ERROR] UnknownException | university={university}")
         return '{"university_name": "{university}", "status": "ERROR"}'.format(
             university=university
         )
