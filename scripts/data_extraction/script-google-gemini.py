@@ -8,8 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 def format_prompt(university):
-    prompt = f'''
+    prompt = f"""
     UNIVERSITY_NAME: {university}
     Please research this university for me.
     I would like to pursue a Master's degree in Computer Science or related areas.
@@ -52,7 +53,7 @@ def format_prompt(university):
 
     The response should only be a JSON with the values above, nothing else and nothing unnecessary.
     I also do not want any comments explaining the code.
-    '''
+    """
 
     print(prompt)
 
@@ -66,8 +67,7 @@ def run_gemini():
         print("✅ Connection successful. Generating content...")
 
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=format_prompt("Eotvos Lorand University")
+            model="gemini-2.5-flash", contents=format_prompt("Eotvos Lorand University")
         )
 
         print("\n--- Answer ---")
@@ -75,24 +75,27 @@ def run_gemini():
         answer = answer.replace("\n", "")
 
         data = json.loads(answer)
-        json_str = json.dumps(data)  
+        json_str = json.dumps(data)
 
         with open("data.txt", "a", encoding="utf-8") as f:
             f.write(json_str + "\n")
-        
+
         print(json_str)
-        
+
         print()
         print("-------------")
 
     except DefaultCredentialsError:
         print("\n❌ ERROR: Missing Gemini API key.")
-        print("Please make sure to set your key in the environment variable 'GEMINI_API_KEY'.")
-        print("Example (Linux/macOS): export GEMINI_API_KEY=\"YOUR_KEY\"")
+        print(
+            "Please make sure to set your key in the environment variable 'GEMINI_API_KEY'."
+        )
+        print('Example (Linux/macOS): export GEMINI_API_KEY="YOUR_KEY"')
     except APIError as e:
         print(f"\n❌ Gemini API ERROR: {e}")
     except Exception as e:
         print(f"\n❌ An unexpected error occurred: {e}")
+
 
 if __name__ == "__main__":
     run_gemini()
