@@ -8,6 +8,7 @@ from utils import append_json_to_file
 models = {
     ChatGPTModels.GPT_4O_MINI.value: ChatGPT(),
     ChatGPTModels.GPT_4O.value: ChatGPT(),
+    ChatGPTModels.GPT_5_MINI.value: ChatGPT(),
     GoogleGeminiModels.FLASH_2_5.value: GoogleGemini(),
     GoogleGeminiModels.PRO_1_5.value: GoogleGemini(),
     GoogleGeminiModels.FLASH_2_0.value: GoogleGemini(),
@@ -75,8 +76,8 @@ def main():
         "University of Pecs",
     ]
 
-    model = GoogleGeminiModels.FLASH_2_5.value
-    # model = ChatGPTModels.GPT_4O_MINI.value
+    # model = GoogleGeminiModels.FLASH_2_5.value
+    model = ChatGPTModels.GPT_5_MINI.value
     client = models[model]
     client.initialize(model, system_content)
     print(model)

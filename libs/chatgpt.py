@@ -31,15 +31,22 @@ class ChatGPT(BaseLLMModel):
 
     def run(self, prompt: str, default_value: str) -> str:
         try:
-            response = self.client.chat.completions.create(
+            response = self.client.responses.create(
                 model=self.model,
-                messages=[self.system_message, {"role": "user", "content": prompt}],
+                input=[self.system_message, {"role": "user", "content": prompt}],
+                tools=[{"type": "web_search"}],
+                reasoning={"effort": "low"},
                 stream=False,
             )
-            content = response.choices[0].message.content
+            content = response.output_text
             content = clean_content(content)
             return parse_and_dump_json(content)
         except Exception as e:
             print(e)
             print(f"[ERROR] UnknownException | {default_value}")
             return default_value
+
+# Docs:
+# https://platform.openai.com/docs/pricing
+# https://platform.openai.com/settings/organization/billing/overview
+# https://platform.openai.com/docs/guides/reasoning
