@@ -1,0 +1,86 @@
+{
+  "city": "Leon",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 250,
+        "range_local": [200, 290],
+        "value_usd": 293,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/leon-leon/?ordenado-por=precios-asc", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 190,
+        "value_usd": 222,
+        "notes": "Basic groceries. Utilities shared low cost (heating managed)."
+      },
+      "transport_entertainment": {
+        "value_local": 50,
+        "value_usd": 59,
+        "notes": "Bono Joven (~0.33€/trip) + Free Tapas culture."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 530, "value_usd": 620}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 350,
+        "range_local": [300, 400],
+        "value_usd": 410,
+        "source": [{"name": "Erasmus Play", "url": "https://erasmusplay.com/es/leon.html", "date": "2025-12-10"}]
+      },
+      "food_services": {
+        "value_local": 270,
+        "value_usd": 316,
+        "notes": "Groceries (220€) + Utils (50€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 100,
+        "value_usd": 117,
+        "notes": "Monthly Pass (18€) + Nightlife in Barrio Húmedo."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 53
+      },
+      "total_monthly": {"value_local": 765, "value_usd": 895}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 650,
+        "range_local": [550, 800],
+        "value_usd": 761,
+        "source": [{"name": "Residencia Emilio Hurtado / Dondememeto", "url": "https://www.rehurtado.com/es/tarifas", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 400,
+        "value_usd": 468,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Transport + Weekend trips to Picos de Europa/Asturias."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 64
+      },
+      "total_monthly": {"value_local": 1305, "value_usd": 1527}
+    }
+  },
+  "summary": "León is a hidden gem for international students: extremely safe, walkable, and affordable. A budget of ~750 € (Balanced) is plenty. The 'Barrio Húmedo' offers one of the best student atmospheres in Spain. Winter is cold, so ensure your flat has good heating.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/leon-leon/", "date": "2025-12-14"},
+    {"name": "Ayuntamiento de León (Transporte)", "url": "https://www.lanuevacronica.com/actualidad/ayuntamiento-leon-prorroga-50-descuento-en-bonos-transporte-publico_167894_102.html", "date": "2025-12-26"},
+    {"name": "Erasmus Play", "url": "https://erasmusplay.com/es/leon.html", "date": "2025-12-10"}
+  ]
+}

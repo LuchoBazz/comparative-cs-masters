@@ -1,0 +1,86 @@
+{
+  "city": "Santiago de Compostela",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 250,
+        "range_local": [200, 280],
+        "value_usd": 263,
+        "source": [{"name": "Erasmus Play / Idealista", "url": "https://erasmusplay.com/es/santiago-de-compostela.html", "date": "2025-12-04"}]
+      },
+      "food_services": {
+        "value_local": 180,
+        "value_usd": 189,
+        "notes": "Basic groceries (Gadis/Dia). Utilities shared low cost."
+      },
+      "transport_entertainment": {
+        "value_local": 50,
+        "value_usd": 53,
+        "notes": "Walkable city + Student bus subsidies."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 42
+      },
+      "total_monthly": {"value_local": 520, "value_usd": 546}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 350,
+        "range_local": [300, 420],
+        "value_usd": 368,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/santiago-de-compostela-a-coruna/", "date": "2025-12-12"}]
+      },
+      "food_services": {
+        "value_local": 270,
+        "value_usd": 284,
+        "notes": "Groceries (220€) + Utils (50€ - winter heating/drying)."
+      },
+      "transport_entertainment": {
+        "value_local": 100,
+        "value_usd": 105,
+        "notes": "Transport + 'Paris-Dakar' route/Dining."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 765, "value_usd": 803}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 700,
+        "range_local": [600, 900],
+        "value_usd": 735,
+        "source": [{"name": "Dondememeto / Residencias", "url": "https://dondememeto.com/residencias-colegios-mayores/a-coruna/santiago-de-compostela", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 400,
+        "value_usd": 420,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 210,
+        "notes": "Transport + Weekend trips to Rías Baixas."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1355, "value_usd": 1423}
+    }
+  },
+  "summary": "Santiago is a compact, historic, and very affordable student city. A budget of ~750 € (Balanced) is perfect for a Master's student. The rainy weather makes a comfortable, dry flat important. Most social life revolves around the Old Town and student flats.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/santiago-de-compostela-a-coruna/", "date": "2025-12-12"},
+    {"name": "Erasmus Play", "url": "https://erasmusplay.com/es/santiago-de-compostela.html", "date": "2025-12-04"},
+    {"name": "Dondememeto", "url": "https://dondememeto.com/residencias-colegios-mayores/a-coruna/santiago-de-compostela", "date": "2025-12-01"}
+  ]
+}

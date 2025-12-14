@@ -1,0 +1,86 @@
+{
+  "city": "Ciudad Real",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 230,
+        "range_local": [180, 250],
+        "value_usd": 242,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/ciudad-real-ciudad-real/?ordenado-por=precios-asc", "date": "2025-12-11"}]
+      },
+      "food_services": {
+        "value_local": 180,
+        "value_usd": 189,
+        "notes": "Basic groceries. Utilities shared low cost."
+      },
+      "transport_entertainment": {
+        "value_local": 45,
+        "value_usd": 47,
+        "notes": "Student Monthly Pass (5.50€) + Low cost tapas."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 42
+      },
+      "total_monthly": {"value_local": 495, "value_usd": 520}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 320,
+        "range_local": [280, 360],
+        "value_usd": 336,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/ciudad-real-ciudad-real/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 260,
+        "value_usd": 273,
+        "notes": "Groceries (210€) + Utils (50€)."
+      },
+      "transport_entertainment": {
+        "value_local": 95,
+        "value_usd": 100,
+        "notes": "Transport + Dining out/Nightlife."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 720, "value_usd": 756}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 550,
+        "range_local": [450, 700],
+        "value_usd": 578,
+        "source": [{"name": "Uniscopio / UCLM", "url": "https://uniscopio.com/residencias/residencias-universitarias-ciudad-real/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 380,
+        "value_usd": 399,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 180,
+        "value_usd": 189,
+        "notes": "Transport + AVE train trips to Madrid."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1165, "value_usd": 1223}
+    }
+  },
+  "summary": "Ciudad Real is an extremely budget-friendly destination, offering the 'real' Spanish experience. A budget of ~700 € (Balanced) is plenty. The high-speed train (AVE) connects you to Madrid in just 50 minutes, making it easy to travel while living cheaply.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/ciudad-real-ciudad-real/", "date": "2025-12-14"},
+    {"name": "Ayuntamiento Ciudad Real (Transporte)", "url": "http://ciudadreal.es/movilidadytransportes/Tarifas_autobus_urbano_2025.pdf", "date": "2025-08-01"},
+    {"name": "UCLM Alojamiento", "url": "https://www.uclm.es/ciudad-real/caminos/futurosestudiantes/vidauniversitaria/alojamientoytransporte", "date": "2025-12-01"}
+  ]
+}

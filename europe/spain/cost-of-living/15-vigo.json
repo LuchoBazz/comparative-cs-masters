@@ -1,0 +1,86 @@
+{
+  "city": "Vigo",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 260,
+        "range_local": [220, 290],
+        "value_usd": 304,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/vigo-pontevedra/?ordenado-por=precios-asc", "date": "2025-12-13"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Basic groceries (Froiz/Gadis). Low utility share."
+      },
+      "transport_entertainment": {
+        "value_local": 55,
+        "value_usd": 64,
+        "notes": "PassVigo Student rate (~0.54€/trip) + Low cost leisure."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 555, "value_usd": 649}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 350,
+        "range_local": [300, 420],
+        "value_usd": 410,
+        "source": [{"name": "Erasmus Play / Idealista", "url": "https://erasmusplay.com/es/vigo.html", "date": "2025-12-07"}]
+      },
+      "food_services": {
+        "value_local": 280,
+        "value_usd": 328,
+        "notes": "Groceries (230€) + Utils (50€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 105,
+        "value_usd": 123,
+        "notes": "PassVigo + Nightlife in Churruca."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 53
+      },
+      "total_monthly": {"value_local": 780, "value_usd": 913}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 600,
+        "range_local": [500, 800],
+        "value_usd": 702,
+        "source": [{"name": "Resa O Castro / Dondememeto", "url": "https://resa.es/residencias/vigo/o-castro/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 420,
+        "value_usd": 491,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 195,
+        "value_usd": 228,
+        "notes": "Transport + Trips to Cíes Islands/Portugal."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 64
+      },
+      "total_monthly": {"value_local": 1270, "value_usd": 1486}
+    }
+  },
+  "summary": "Vigo offers a unique industrial-coastal vibe with affordable costs compared to major capitals. A budget of ~800 € (Balanced) is ideal. The university campus (CUVI) is far from the city center (30 mins by bus), so the 'PassVigo' card is essential. Avoid the 'Economic' residence route unless booked very early.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/vigo-pontevedra/", "date": "2025-12-13"},
+    {"name": "Vitrasa (Transporte)", "url": "https://www.vitrasa.es/gl/tarifas-y-titulos", "date": "2025-07-01"},
+    {"name": "Resa O Castro", "url": "https://resa.es/residencias/vigo/o-castro/", "date": "2025-12-01"}
+  ]
+}

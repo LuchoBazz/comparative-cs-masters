@@ -1,0 +1,86 @@
+{
+  "city": "Salamanca",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 230,
+        "range_local": [180, 270],
+        "value_usd": 242,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/salamanca-salamanca/?ordenado-por=precios-asc", "date": "2025-12-13"}]
+      },
+      "food_services": {
+        "value_local": 190,
+        "value_usd": 200,
+        "notes": "Basic groceries. Utilities shared low cost (heating managed)."
+      },
+      "transport_entertainment": {
+        "value_local": 55,
+        "value_usd": 58,
+        "notes": "Abono Joven (~7.34€) + 'Van Dyck' tapas."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 42
+      },
+      "total_monthly": {"value_local": 515, "value_usd": 541}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 340,
+        "range_local": [300, 400],
+        "value_usd": 357,
+        "source": [{"name": "Erasmus Play", "url": "https://erasmusplay.com/es/salamanca/erasmus-in-salamanca.html", "date": "2025-10-30"}]
+      },
+      "food_services": {
+        "value_local": 280,
+        "value_usd": 294,
+        "notes": "Groceries (230€) + Utils (50€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 110,
+        "value_usd": 116,
+        "notes": "Transport + Nightlife/Dining out."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 775, "value_usd": 814}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 650,
+        "range_local": [550, 850],
+        "value_usd": 683,
+        "source": [{"name": "Resa / ResidenciasUniversitarias.es", "url": "https://residenciasuniversitarias.es/salamanca/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 420,
+        "value_usd": 441,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 210,
+        "value_usd": 221,
+        "notes": "Transport + Trips to Portugal/Madrid."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1335, "value_usd": 1402}
+    }
+  },
+  "summary": "Salamanca is the 'Golden City' for students, offering a high-quality academic environment at a very low cost. A realistic budget of ~750 € (Balanced) is sufficient. It is small, safe, and walkable, with a vibrant international community.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/salamanca-salamanca/", "date": "2025-12-13"},
+    {"name": "Ayuntamiento de Salamanca (Transporte)", "url": "https://cronicauniversitaria.es/2025/05/24/el-ayuntamiento-de-salamanca-reduce-las-tarifas-del-autobus-urbano-al-50-en-los-abonos-dirigidos-a-jovenes/", "date": "2025-05-24"},
+    {"name": "Expatistan", "url": "https://www.expatistan.com/es/costo-de-vida/salamanca", "date": "2025-12-14"}
+  ]
+}
