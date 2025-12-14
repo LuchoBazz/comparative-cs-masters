@@ -1,0 +1,81 @@
+CITY_NAME: Madrid/Spain
+
+You are an Internet research assistant that finds updated cost-of-living data and **cites sources**. For the city **[CITY_NAME]**, calculate a **monthly living cost** for a **Colombian international student (NON-EU)** who lives alone and will study a **master’s degree**.
+
+### 1. Data and Sources
+
+* Search for **recent data** (last 12 months).
+* For every cost, include **source name, URL, and date**.
+
+### 2. Scenarios (Definitions)
+
+* **Economic**: shared university residence with another student; cheap food; public transport; low-cost entertainment.
+* **Balanced**: private room with shared bathroom in a shared apartment; balanced food; public transport; balanced entertainment.
+* **Comfort**: private room with private bathroom in shared apartment; comfortable food; public transport; comfortable entertainment.
+
+### 3. Monthly Cost Breakdown
+
+For each scenario, calculate:
+
+* **A. Average Rent (month)** — note if utilities are included.
+* **B. Food & Services (month)** — include groceries, cooking, and utility services (internet, electricity, water, gas).
+* **C. Transport & Entertainment (month)** — include public transport cost and entertainment.
+* **D. **Total Monthly Cost**
+
+### 4. Presentation
+
+* Give costs as: **value (local currency)**, **range (min–max)**, and **equivalent in USD** (with exchange rate and source).
+* Provide a **table** with all scenarios and costs.
+
+### 5. Output Format (JSON + Table)
+
+Here is the **JSON structure** you must follow:
+
+```json
+{
+  "city": "[CITY_NAME]",
+  "date_of_research": "YYYY-MM-DD",
+  "exchange_rate": {
+    "local_to_usd": 0,
+    "source": "",
+    "date": "YYYY-MM-DD"
+  },
+  "scenarios": {
+    "Economic": {
+      "rent": {
+        "value_local": 0,
+        "range_local": [0, 0],
+        "value_usd": 0,
+        "source": [{"name": "", "url": "", "date": ""}]
+      },
+      "food_services": {...},
+      "transport_entertainment": {...},
+      "total_monthly": {"value_local": 0, "value_usd": 0}
+    },
+    "Balanced": {...},
+    "Comfort": {...}
+  },
+  "summary": "short paragraph (3–4 lines)",
+  "main_sources": [
+    {"name": "", "url": "", "date": ""}
+  ]
+}
+```
+
+### 6. Notes
+
+* If exact data is not available, make reasonable estimates and **explain assumptions**.
+* Do **not include university tuition or travel tickets**.
+* If student health insurance is required, list it separately.
+
+### 7. Output
+
+Provide:
+
+* A **clear table** with costs in local currency and USD.
+* The **JSON object** above.
+* A short **summary explanation** recommending which scenario is most realistic for a master’s student.
+
+---
+
+If you want, I can also provide a version with **yearly costs**, **visa/insurance costs**, or **university fees**. 

@@ -1,0 +1,86 @@
+{
+  "city": "Madrid",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "Economic": {
+      "rent": {
+        "value_local": 550,
+        "range_local": [400, 700],
+        "value_usd": 643,
+        "source": [{"name": "University Living", "url": "https://www.universityliving.com/blog/student-finances/cost-of-living-in-spain/", "date": "2025-07-30"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Includes basic groceries. Utilities assumed included in Residence fee."
+      },
+      "transport_entertainment": {
+        "value_local": 80,
+        "value_usd": 93,
+        "notes": "Youth transport pass (10€) + Low cost leisure."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 46
+      },
+      "total_monthly": {"value_local": 870, "value_usd": 1018}
+    },
+    "Balanced": {
+      "rent": {
+        "value_local": 600,
+        "range_local": [500, 750],
+        "value_usd": 702,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/madrid-madrid/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 320,
+        "value_usd": 374,
+        "notes": "Groceries (250€) + Share of Utils (70€)"
+      },
+      "transport_entertainment": {
+        "value_local": 133,
+        "value_usd": 155,
+        "notes": "Standard Transport (33€) + moderate dining out."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 46
+      },
+      "total_monthly": {"value_local": 1093, "value_usd": 1279}
+    },
+    "Comfort": {
+      "rent": {
+        "value_local": 900,
+        "range_local": [800, 1200],
+        "value_usd": 1053,
+        "source": [{"name": "Idealista/Fotocasa", "url": "https://www.idealista.com", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 450,
+        "value_usd": 526,
+        "notes": "Premium groceries/dining + Higher utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 233,
+        "value_usd": 272,
+        "notes": "Standard Transport + Cinema/Nightlife/Trips."
+      },
+      "health_insurance": {
+        "value_local": 50,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1633, "value_usd": 1910}
+    }
+  },
+  "summary": "For a Master's student, the Balanced Scenario (approx 1.100€) is the most realistic target. 'Economic' residences are often either full or more expensive than private flats. Budget for at least 1.100-1.200€ to secure a decent room and cover rising food costs.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/madrid-madrid/", "date": "2025-12-14"},
+    {"name": "Bankinter Blog", "url": "https://www.bankinter.com/blog/finanzas-personales/vivir-madrid-estudiante", "date": "2025-08-01"},
+    {"name": "RedTransporte Madrid", "url": "https://www.redtransporte.com/madrid/precios-abonos.html", "date": "2025-07-01"}
+  ]
+}
