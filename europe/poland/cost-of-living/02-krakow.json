@@ -1,0 +1,100 @@
+{
+  "city": "Krakow",
+  "country": "Poland",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 0.278,
+    "usd_to_local": 3.60,
+    "source": "Google Finance Market Data",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 650,
+        "range_local": [560, 850],
+        "value_usd": 180,
+        "notes": "Shared room in University Dormitory (DS). Utilities included.",
+        "source": [{"name": "Jagiellonian University Fact Sheet", "url": "https://erasmus.uj.edu.pl/", "date": "2024-2025"}]
+      },
+      "food_services": {
+        "value_local": 900,
+        "value_usd": 250,
+        "notes": "Cooking at home (Biedronka/Lidl), cheap mobile plan."
+      },
+      "transport_entertainment": {
+        "value_local": 250,
+        "value_usd": 69,
+        "notes": "Student Monthly Ticket (reduced) + low-cost leisure."
+      },
+      "health_insurance": {
+         "value_local": 55.80,
+         "notes": "NFZ Voluntary Student Insurance"
+      },
+      "total_monthly": {
+        "value_local": 1856,
+        "value_usd": 515
+      }
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 1700,
+        "range_local": [1500, 1900],
+        "value_usd": 472,
+        "notes": "Private room in shared flat. Utilities estimated at 200 PLN share.",
+        "source": [{"name": "Erasmus Play / Nestpick", "url": "https://erasmusplay.com/en/krakow.html", "date": "2025"}]
+      },
+      "food_services": {
+        "value_local": 1400,
+        "value_usd": 389,
+        "notes": "Balanced diet, occasional eating out, standard internet."
+      },
+      "transport_entertainment": {
+        "value_local": 500,
+        "value_usd": 139,
+        "notes": "Gym membership, cinema, pubs, public transport."
+      },
+      "health_insurance": {
+         "value_local": 55.80,
+         "notes": "NFZ Voluntary Student Insurance"
+      },
+      "total_monthly": {
+        "value_local": 3656,
+        "value_usd": 1015
+      }
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 3200,
+        "range_local": [2800, 3600],
+        "value_usd": 889,
+        "notes": "Private Studio or Premium Student Housing (Ensuite).",
+        "source": [{"name": "Student Depot / Wise", "url": "https://studentdepot.pl/", "date": "2025"}]
+      },
+      "food_services": {
+        "value_local": 2200,
+        "value_usd": 611,
+        "notes": "Quality groceries, frequent dining out, high-speed internet."
+      },
+      "transport_entertainment": {
+        "value_local": 1000,
+        "value_usd": 278,
+        "notes": "Taxis/Ubers, clubs, trips, full entertainment."
+      },
+      "health_insurance": {
+         "value_local": 200,
+         "notes": "NFZ + Private Supplement"
+      },
+      "total_monthly": {
+        "value_local": 6600,
+        "value_usd": 1833
+      }
+    }
+  },
+  "summary": "For a Master's student, the 'Balanced' scenario (~3,600 PLN / $1,000) is the most realistic for a sustainable lifestyle, allowing for a private room and social life. The 'Economic' option is viable only if you secure a spot in a public university dormitory, which is competitive. Ensure you budget for the NFZ insurance (55.80 PLN) as it is the most cost-effective medical coverage for Visa compliance.",
+  "main_sources": [
+    {"name": "NFZ Lublin (Insurance)", "url": "https://www.nfz-lublin.pl/voluntary_health_insurance", "date": "2025-10"},
+    {"name": "MPK Krakow (Transport)", "url": "https://mpk.krakow.pl/en/kmk-tickets", "date": "2024"},
+    {"name": "Numbeo Cost of Living", "url": "https://www.numbeo.com/cost-of-living/in/Krakow-Cracow", "date": "2025"}
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "city": "Poznań",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 0.247,
+    "usd_to_local": 4.05,
+    "source": "Market Estimate / Google Finance Trends",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 725,
+        "range_local": [580, 870],
+        "value_usd": 179,
+        "notes": "Shared room in UAM or PUT dormitories. Utilities included.",
+        "source": [
+          {"name": "AMU Poznań Dormitory Fees", "url": "https://amu.edu.pl/en/education/amu-dormitories", "date": "2024-07"},
+          {"name": "PUT Dormitory Price List", "url": "https://pums.ump.edu.pl/admissions/student-accommodation.html", "date": "2025"}
+        ]
+      },
+      "food_services": {
+        "value_local": 850,
+        "value_usd": 210,
+        "notes": "Home cooking, minimal dining out, basic mobile plan."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 49,
+        "notes": "Semester Ticket (PEKA) amortized ~43 PLN/mo + low cost leisure."
+      },
+      "health_insurance": {
+         "value_local": 55.80,
+         "notes": "NFZ Voluntary Student Insurance"
+      },
+      "total_monthly": {
+        "value_local": 1830,
+        "value_usd": 452
+      }
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 1350,
+        "range_local": [1100, 1600],
+        "value_usd": 333,
+        "notes": "Private room in Jeżyce or Łazarz district. Includes est. utilities.",
+        "source": [
+          {"name": "Erasmus Play Poznań", "url": "https://erasmusplay.com/en/poznan.html", "date": "2025"},
+          {"name": "Pepe Housing Poznań", "url": "https://pepehousing.com/", "date": "2025"}
+        ]
+      },
+      "food_services": {
+        "value_local": 1350,
+        "value_usd": 333,
+        "notes": "Groceries + occasional milk bar/cafeteria, standard internet."
+      },
+      "transport_entertainment": {
+        "value_local": 450,
+        "value_usd": 111,
+        "notes": "Gym, cinema, student parties, public transport."
+      },
+      "health_insurance": {
+         "value_local": 55.80,
+         "notes": "NFZ Voluntary Student Insurance"
+      },
+      "total_monthly": {
+        "value_local": 3205,
+        "value_usd": 791
+      }
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 2600,
+        "range_local": [2200, 3000],
+        "value_usd": 642,
+        "notes": "Private studio (Student Depot or renovated flat). All-inclusive bills.",
+        "source": [{"name": "Student Depot Poznań", "url": "https://studentdepot.pl/en/our-dormitories/dormitory-poznan/", "date": "2025"}]
+      },
+      "food_services": {
+        "value_local": 2100,
+        "value_usd": 518,
+        "notes": "High quality groceries, frequent eating out, premium data/subscriptions."
+      },
+      "transport_entertainment": {
+        "value_local": 850,
+        "value_usd": 210,
+        "notes": "Uber/Taxi, concerts, trips, full social life."
+      },
+      "health_insurance": {
+         "value_local": 200,
+         "notes": "NFZ + Private Supplement"
+      },
+      "total_monthly": {
+        "value_local": 5750,
+        "value_usd": 1420
+      }
+    }
+  },
+  "summary": "Poznań is very affordable compared to other major Polish cities. The **Balanced Scenario (~3,200 PLN / $790 USD)** is the most realistic for a Master's student, allowing you to live in a private room in a popular student district like **Jeżyce**. The 'Economic' option is very cheap (~1,800 PLN) but relies on getting a spot in a university dorm, which is difficult for international students due to high demand.",
+  "main_sources": [
+    {"name": "ZTM Poznań (PEKA Card)", "url": "https://www.ztm.poznan.pl/en/cennik/", "date": "2024"},
+    {"name": "Numbeo Poznań", "url": "https://www.numbeo.com/cost-of-living/in/Poznan", "date": "2025"},
+    {"name": "NFZ Student Insurance", "url": "https://www.nfz-lublin.pl/voluntary_health_insurance", "date": "2025"}
+  ]
+}

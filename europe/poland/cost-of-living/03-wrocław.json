@@ -1,0 +1,91 @@
+{
+  "city": "Wrocław",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 0.243,
+    "source": "Google Finance / Market Estimate",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 780,
+        "range_local": [690, 950],
+        "value_usd": 190,
+        "source": [
+          {"name": "University of Wrocław Dormitory Price List", "url": "https://uwr.edu.pl/en/student-houses/price-list/", "date": "2025-10"},
+          {"name": "PWr Dormitory Fees", "url": "https://students.pwr.edu.pl/", "date": "2024-2025"}
+        ]
+      },
+      "food_services": {
+        "value_local": 800,
+        "value_usd": 195,
+        "notes": "Strict home cooking (Biedronka/Lidl), minimal phone plan."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 49,
+        "notes": "Semester ticket (amortized) + free/low-cost student events."
+      },
+      "total_monthly": {
+        "value_local": 1836,
+        "value_usd": 448
+      }
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 1750,
+        "range_local": [1500, 2000],
+        "value_usd": 427,
+        "source": [
+          {"name": "Erasmus Play Wrocław", "url": "https://erasmusplay.com/en/wroclaw.html", "date": "2025"},
+          {"name": "Nestpick Rent Data", "url": "https://www.nestpick.com/wroclaw/", "date": "2025"}
+        ]
+      },
+      "food_services": {
+        "value_local": 1300,
+        "value_usd": 317,
+        "notes": "Groceries + occasional university canteen lunch + streaming services."
+      },
+      "transport_entertainment": {
+        "value_local": 450,
+        "value_usd": 110,
+        "notes": "Gym membership (100 PLN), cinema, social drinks."
+      },
+      "total_monthly": {
+        "value_local": 3556,
+        "value_usd": 867
+      }
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 3000,
+        "range_local": [2700, 3400],
+        "value_usd": 731,
+        "source": [
+          {"name": "Student Depot Wrocław", "url": "https://studentdepot.pl/en/our-dormitories/dormitory-wroclaw/", "date": "2025"}
+        ]
+      },
+      "food_services": {
+        "value_local": 2100,
+        "value_usd": 512,
+        "notes": "Premium groceries, frequent eating out (Rynek area), fast fiber internet."
+      },
+      "transport_entertainment": {
+        "value_local": 900,
+        "value_usd": 220,
+        "notes": "Taxis/Uber, concerts, clubbing, trips."
+      },
+      "total_monthly": {
+        "value_local": 6200,
+        "value_usd": 1512
+      }
+    }
+  },
+  "summary": "Wrocław offers a slightly more affordable cost of living than Warsaw or Krakow. For a Master's student, the **Balanced scenario (~3,550 PLN / $867 USD)** is the most realistic to ensure privacy for studying while enjoying the city's vibrant student life. The **Economic** option (~1,800 PLN) is very tight and strictly depends on getting a spot in a university dorm ('Ołówek' or 'Kredka'), which are highly competitive.",
+  "main_sources": [
+    {"name": "Urbancard Wrocław (MPK)", "url": "https://www.urbancard.pl/bilety-ceny-i-ich-rodzaje", "date": "2024-07"},
+    {"name": "Numbeo Wrocław", "url": "https://www.numbeo.com/cost-of-living/in/Wroclaw", "date": "2025"},
+    {"name": "NFZ Insurance Info", "url": "https://sd.ujk.edu.pl/en/health-insurance/insurance-for-non-eu-efta-citizens/", "date": "2025"}
+  ]
+}
