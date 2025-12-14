@@ -41,7 +41,7 @@ Here is the **JSON structure** you must follow:
     "date": "YYYY-MM-DD"
   },
   "scenarios": {
-    "Economic": {
+    "economic": {
       "rent": {
         "value_local": 0,
         "range_local": [0, 0],
@@ -52,8 +52,8 @@ Here is the **JSON structure** you must follow:
       "transport_entertainment": {...},
       "total_monthly": {"value_local": 0, "value_usd": 0}
     },
-    "Balanced": {...},
-    "Comfort": {...}
+    "balanced": {...},
+    "comfort": {...}
   },
   "summary": "short paragraph (3–4 lines)",
   "main_sources": [

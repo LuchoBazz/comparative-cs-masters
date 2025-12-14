@@ -1,0 +1,86 @@
+{
+  "city": "Barcelona",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 530,
+        "range_local": [380, 650],
+        "value_usd": 556,
+        "source": [{"name": "Resa Lesseps / UAB Vila", "url": "https://resa.es/wp-content/uploads/2024/02/Precios-Lesseps_24-25.pdf", "date": "2025-05-15"}]
+      },
+      "food_services": {
+        "value_local": 220,
+        "value_usd": 231,
+        "notes": "Basic groceries. Utilities assumed included in residence fee or low usage."
+      },
+      "transport_entertainment": {
+        "value_local": 65,
+        "value_usd": 68,
+        "notes": "T-Jove (Youth) pass + low cost leisure."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 860, "value_usd": 903}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 620,
+        "range_local": [550, 750],
+        "value_usd": 651,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/barcelona-barcelona/", "date": "2025-12-13"}]
+      },
+      "food_services": {
+        "value_local": 330,
+        "value_usd": 346,
+        "notes": "Groceries (260€) + Share of Utils (70€)"
+      },
+      "transport_entertainment": {
+        "value_local": 120,
+        "value_usd": 126,
+        "notes": "T-Usual (Standard) pass + moderate dining/activities."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 1115, "value_usd": 1171}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 1050,
+        "range_local": [900, 1400],
+        "value_usd": 1102,
+        "source": [{"name": "Uniscopio / Nodis / Resa", "url": "https://uniscopio.com/residencias/residencias-universitarias-barcelona/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 480,
+        "value_usd": 504,
+        "notes": "Premium dining/groceries + Higher utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 222,
+        "value_usd": 233,
+        "notes": "Transport + Gym, Cinema, Nightlife."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1807, "value_usd": 1897}
+    }
+  },
+  "summary": "Barcelona is one of Spain's most expensive cities. A realistic budget for a Master's student in a shared apartment (Balanced) is around 1.100 € - 1.200 €. Public residences are cheaper but scarce; private residences are luxury-priced (often 1.000 €+). Transport is very affordable due to government subsidies.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com", "date": "2025-12-13"},
+    {"name": "TMB Barcelona", "url": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-fares-reduction", "date": "2025-12-14"},
+    {"name": "University Living", "url": "https://www.universityliving.com/blog/student-finances/cost-of-living-in-barcelona/", "date": "2025-05-21"}
+  ]
+}
