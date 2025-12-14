@@ -69,11 +69,28 @@ default_value_university = '{{"university_name": "{university}", "status": "ERRO
 
 def main():
     universities = [
-        "University of Szeged",
-        "Budapest University of Technology and Economics",
-        "Semmelweis University",
-        "University of Debrecen",
-        "University of Pecs",
+        "University of Lisbon",
+        "University of Porto",
+        "University of Coimbra",
+        "University of Minho",
+        "University of Aveiro",
+        "New University of Lisbon",
+        "Polytechnic Institute of Lisbon",
+        "University of Beira Interior",
+        "Polytechnic Institute of Porto",
+        "University Institute of Lisbon",
+        "University of the Algarve",
+
+        "University College Dublin",
+        "Trinity College Dublin, University of Dublin",
+        "University College Cork",
+        "National University of Ireland, Galway",
+        "Dublin City University",
+        "University of Limerick",
+        "Maynooth University",
+        "Royal College of Surgeons in Ireland",
+        "National University of Ireland, System",
+        "Dublin Institute of Technology",
     ]
 
     # model = GoogleGeminiModels.FLASH_2_5.value
