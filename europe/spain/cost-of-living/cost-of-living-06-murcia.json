@@ -1,0 +1,86 @@
+{
+  "city": "Murcia",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 280,
+        "range_local": [240, 320],
+        "value_usd": 328,
+        "source": [{"name": "Idealista / Uniscopio", "url": "https://www.idealista.com/alquiler-habitacion/murcia-murcia/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Basic groceries. Utilities low/included in some cheap rentals."
+      },
+      "transport_entertainment": {
+        "value_local": 60,
+        "value_usd": 70,
+        "notes": "Subsidized Unibono (~10€) + Low cost tapas."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 580, "value_usd": 679}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 350,
+        "range_local": [320, 450],
+        "value_usd": 410,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/murcia-murcia/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 290,
+        "value_usd": 339,
+        "notes": "Groceries (240€) + Share of Utils (50€)."
+      },
+      "transport_entertainment": {
+        "value_local": 110,
+        "value_usd": 129,
+        "notes": "Standard Transport (20€) + Dining/Socializing (90€)."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 790, "value_usd": 925}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 600,
+        "range_local": [550, 800],
+        "value_usd": 702,
+        "source": [{"name": "Uniscopio / Micampus", "url": "https://uniscopio.com/residencias/residencias-universitarias-murcia/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 420,
+        "value_usd": 491,
+        "notes": "Premium dining + higher utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Taxi usage + Weekend trips/Nightlife."
+      },
+      "health_insurance": {
+        "value_local": 50,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1270, "value_usd": 1486}
+    }
+  },
+  "summary": "Murcia is an excellent budget-friendly option for students. A realistic monthly budget is around 750 € - 800 € (Balanced), which gets you a nice room in the center and good food. The cost of living is roughly 30% lower than in Madrid.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/murcia-murcia/", "date": "2025-12-14"},
+    {"name": "Expatistan Murcia", "url": "https://www.expatistan.com/es/costo-de-vida/murcia", "date": "2025-12-14"},
+    {"name": "Universidad de Murcia (Transporte)", "url": "https://www.um.es/web/estudiantes/vida-universitaria/transporte", "date": "2025-12-14"}
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "city": "Alicante",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 250,
+        "range_local": [200, 300],
+        "value_usd": 263,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/alicante-alacant-alicante/?ordenado-por=precios-asc", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 210,
+        "notes": "Basic groceries. Utilities shared (low cost)."
+      },
+      "transport_entertainment": {
+        "value_local": 50,
+        "value_usd": 53,
+        "notes": "Free Transport (<31) + Low cost tapas."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 42
+      },
+      "total_monthly": {"value_local": 540, "value_usd": 567}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 380,
+        "range_local": [350, 450],
+        "value_usd": 399,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/alicante-alacant-alicante/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 280,
+        "value_usd": 294,
+        "notes": "Groceries (230€) + Share of Utils (50€)."
+      },
+      "transport_entertainment": {
+        "value_local": 110,
+        "value_usd": 116,
+        "notes": "Free Transport (<31) + Dining/Nightlife."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 815, "value_usd": 856}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 750,
+        "range_local": [650, 900],
+        "value_usd": 788,
+        "source": [{"name": "Micampus / Villa Universitaria", "url": "https://micampusresidencias.com/residencias-universitarias-alicante/micampus-alicante/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 400,
+        "value_usd": 420,
+        "notes": "Premium dining + higher utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 220,
+        "value_usd": 231,
+        "notes": "Taxi/Uber + Weekend trips/Clubs."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1425, "value_usd": 1496}
+    }
+  },
+  "summary": "Alicante is extremely budget-friendly. A student can live well with ~800 €/month (Balanced). The 'Economic' option is viable due to cheap rents in San Vicente (~250 €) and free public transport for youth. University residences (e.g., Villa Universitaria) are popular but significantly more expensive than private flats.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/alicante-alacant-alicante/", "date": "2025-12-14"},
+    {"name": "Generalitat Valenciana (Transporte)", "url": "https://sede.gva.es/es/inicio/procedimientos?id_proc=22936", "date": "2025-12-14"},
+    {"name": "Expatistan Alicante", "url": "https://www.expatistan.com/cost-of-living/alicante", "date": "2025-12-14"}
+  ]
+}

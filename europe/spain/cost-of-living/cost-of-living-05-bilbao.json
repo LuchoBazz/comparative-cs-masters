@@ -1,0 +1,86 @@
+{
+  "city": "Bilbao",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 400,
+        "range_local": [320, 450],
+        "value_usd": 468,
+        "source": [{"name": "Idealista / Erasmus Play", "url": "https://erasmusplay.com/es/bilbao.html", "date": "2025-10-30"}]
+      },
+      "food_services": {
+        "value_local": 230,
+        "value_usd": 269,
+        "notes": "Basic groceries (Eroski/Mercadona). Utilities shared (low heating use)."
+      },
+      "transport_entertainment": {
+        "value_local": 75,
+        "value_usd": 88,
+        "notes": "Barik Gazte Pass (~15€) + 'Pintxo-pote' leisure."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 745, "value_usd": 871}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 525,
+        "range_local": [480, 600],
+        "value_usd": 614,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/bilbao-vizcaya/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 320,
+        "value_usd": 374,
+        "notes": "Groceries (260€) + Utils (60€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 145,
+        "value_usd": 170,
+        "notes": "Bidai Pass (33€) + Dining out/Socializing."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 53
+      },
+      "total_monthly": {"value_local": 1035, "value_usd": 1210}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 850,
+        "range_local": [750, 1100],
+        "value_usd": 994,
+        "source": [{"name": "Livensa Living / HousingAnywhere", "url": "https://housinganywhere.com/es/s/Bilbao--Espa%C3%B1a/alojamiento-para-estudiantes", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 450,
+        "value_usd": 526,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 240,
+        "value_usd": 281,
+        "notes": "Transport + Nightlife/Trips/Gym."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 64
+      },
+      "total_monthly": {"value_local": 1595, "value_usd": 1866}
+    }
+  },
+  "summary": "Bilbao offers a high quality of life with a cost of living slightly above the Spanish average, especially in food and rent. A realistic budget for a Master's student is around 1.050 € (Balanced). Winter heating costs can be significant compared to southern Spain. Transport is efficient and affordable with the 'Barik' card.",
+  "main_sources": [
+    {"name": "CTB Bizkaia", "url": "https://www.ctb.eus/es/tarifas-barik", "date": "2025-12-14"},
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/bilbao-vizcaya/", "date": "2025-12-14"},
+    {"name": "Expatistan", "url": "https://www.expatistan.com/es/costo-de-vida/bilbao", "date": "2025-12-14"}
+  ]
+}
