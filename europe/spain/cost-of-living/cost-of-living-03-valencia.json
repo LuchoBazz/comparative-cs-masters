@@ -1,0 +1,74 @@
+{
+  "city": "Valencia",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 425,
+        "range_local": [350, 500],
+        "value_usd": 497,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/valencia-valencia/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Basic groceries (Mercadona/Consum). Utilities shared low cost."
+      },
+      "transport_entertainment": {
+        "value_local": 65,
+        "value_usd": 76,
+        "notes": "SUMA Jove Pass (15€) + Low cost leisure."
+      },
+      "total_monthly": {"value_local": 730, "value_usd": 854}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 600,
+        "range_local": [500, 700],
+        "value_usd": 702,
+        "source": [{"name": "Erasmus Play", "url": "https://erasmusplay.com/es/valencia/erasmus-in-valencia.html", "date": "2025-10-30"}]
+      },
+      "food_services": {
+        "value_local": 310,
+        "value_usd": 363,
+        "notes": "Groceries (250€) + Share of Utils/Internet (60€)."
+      },
+      "transport_entertainment": {
+        "value_local": 135,
+        "value_usd": 158,
+        "notes": "Standard Transport (35€) + Dining/Socializing (100€)."
+      },
+      "total_monthly": {"value_local": 1090, "value_usd": 1275}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 950,
+        "range_local": [850, 1200],
+        "value_usd": 1111,
+        "source": [{"name": "Uniscopio / Livensa", "url": "https://uniscopio.com/residencias/residencias-universitarias-valencia/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 450,
+        "value_usd": 526,
+        "notes": "Premium dining + higher utility usage (AC/Heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 235,
+        "value_usd": 275,
+        "notes": "Standard Transport + Nightlife/Trips."
+      },
+      "total_monthly": {"value_local": 1690, "value_usd": 1977}
+    }
+  },
+  "summary": "Valencia offers a high quality of life for a lower cost than Madrid or Barcelona. A realistic budget for a Master's student is around 1.000 €, allowing for a nice room in a shared flat (Balanced). 'Economic' options exist but require searching for older flats in student areas like Benimaclet.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/valencia-valencia/", "date": "2025-12-14"},
+    {"name": "Globexs", "url": "https://www.globexs.com/es/expats-en-espana-es/coste-de-vida-en-valencia/", "date": "2025-08-08"},
+    {"name": "RedTransporte Valencia", "url": "https://www.redtransporte.com/valencia/precios-abonos.html", "date": "2025-12-14"}
+  ]
+}
