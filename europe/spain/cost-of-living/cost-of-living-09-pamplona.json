@@ -1,0 +1,86 @@
+{
+  "city": "Pamplona",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.05,
+    "source": "Market Estimate (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 330,
+        "range_local": [290, 360],
+        "value_usd": 347,
+        "source": [{"name": "Erasmus Play / Idealista", "url": "https://erasmusplay.com/es/pamplona-iruna.html", "date": "2025-10-30"}]
+      },
+      "food_services": {
+        "value_local": 220,
+        "value_usd": 231,
+        "notes": "Basic groceries. Utilities shared (heating costs managed)."
+      },
+      "transport_entertainment": {
+        "value_local": 65,
+        "value_usd": 68,
+        "notes": "Abono Joven (~14€) + 'Juevintxo' leisure."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 42
+      },
+      "total_monthly": {"value_local": 655, "value_usd": 688}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 460,
+        "range_local": [400, 520],
+        "value_usd": 483,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/pamplonairuna-navarra/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 310,
+        "value_usd": 326,
+        "notes": "Groceries (260€) + Utils (50€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 130,
+        "value_usd": 137,
+        "notes": "Transport + Dining out/Socializing."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 945, "value_usd": 992}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 850,
+        "range_local": [750, 1100],
+        "value_usd": 893,
+        "source": [{"name": "Resa Los Abedules / Micampus", "url": "https://resa.es/wp-content/uploads/2024/02/Precios-Los-Abedules_24-25-1.pdf", "date": "2025-06-19"}]
+      },
+      "food_services": {
+        "value_local": 450,
+        "value_usd": 473,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 230,
+        "value_usd": 242,
+        "notes": "Transport + Nightlife/Trips/Gym."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 58
+      },
+      "total_monthly": {"value_local": 1585, "value_usd": 1664}
+    }
+  },
+  "summary": "Pamplona is a safe, green, and student-friendly city. A realistic budget for a Master's student is around 900 € - 950 € (Balanced). Winter heating costs can be significant. 'Juevintxo' offers a very affordable social life. Avoid residences if you are on a budget, as they are priced for the premium market.",
+  "main_sources": [
+    {"name": "Mancomunidad Pamplona (MCP)", "url": "https://www.mcp.es/transporte/normativa-y-tarifas-transporte-urbano", "date": "2025-12-14"},
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/pamplonairuna-navarra/", "date": "2025-12-14"},
+    {"name": "Numbeo", "url": "https://www.numbeo.com/cost-of-living/in/Pamplona", "date": "2025-12-09"}
+  ]
+}
