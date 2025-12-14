@@ -1,0 +1,73 @@
+{
+  "university": "University of Seville",
+  "search_year": 2026,
+  "programs": [
+    {
+      "name": "Máster Universitario en Ingeniería Informática (Master in Computer Engineering)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Foreign Students)",
+      "url": "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-informatica",
+      "source_title": "University of Seville - Master in Computer Engineering",
+      "notes": "Official dates for the 2026-2027 intake are not yet approved. Based on the 2025-2026 calendar, Phase 1 (for students with foreign degrees) is expected to run from approx. Jan 13 to Jan 29, 2026."
+    },
+    {
+      "name": "Máster Universitario en Ingeniería Informática (Master in Computer Engineering)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 2 (General Admission)",
+      "url": "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-informatica",
+      "source_title": "University of Seville - Master in Computer Engineering",
+      "notes": "Dates pending approval. Historically, Phase 2 (General) opens in early June (approx. June 2-10)."
+    },
+    {
+      "name": "Máster Universitario en Ingeniería Informática (Master in Computer Engineering)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 3 (Late Admission)",
+      "url": "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-informatica",
+      "source_title": "University of Seville - Master in Computer Engineering",
+      "notes": "Dates pending approval. Phase 3 typically opens in September/October for remaining spots."
+    },
+    {
+      "name": "Máster Universitario en Lógica, Computación e Inteligencia Artificial (Master in Logic, Computing and AI)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Foreign Students)",
+      "url": "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-logica-computacion-e-inteligencia",
+      "source_title": "University of Seville - Master in Logic, Computing and AI",
+      "notes": "Official dates not yet released. Phase 1 (Foreigners) is expected in mid-January 2026."
+    },
+    {
+      "name": "Máster Universitario en Ingeniería del Software: Cloud, Datos y Gestión TI (Master in Software Engineering)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Foreign Students)",
+      "url": "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-del-software-cloud",
+      "source_title": "University of Seville - Master in Software Engineering: Cloud, Data and IT Management",
+      "notes": "Official dates not yet released. Phase 1 (Foreigners) is expected in mid-January 2026."
+    }
+  ],
+  "links": [
+    "https://www.juntadeandalucia.es/economiaconocimientoempresasyuniversidad/sguit/?q=masteres",
+    "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-informatica",
+    "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-logica-computacion-e-inteligencia",
+    "https://www.us.es/estudiar/que-estudiar/oferta-de-masteres/master-universitario-en-ingenieria-del-software-cloud"
+  ],
+  "last_checked": "2025-12-14"
+}

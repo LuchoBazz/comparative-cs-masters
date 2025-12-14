@@ -1,0 +1,60 @@
+{
+  "university": "University of the Basque Country (UPV/EHU)",
+  "search_year": 2026,
+  "programs": [
+    {
+      "name": "Master in Language Analysis and Processing (HAP/LAP)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "English",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Expected)",
+      "url": "https://www.ehu.eus/en/web/master/master-language-analysis-processing",
+      "source_title": "Master in Language Analysis and Processing - UPV/EHU",
+      "notes": "Official 2026 dates not yet published. Based on the previous year, Phase 1 is expected to run from approx. March 3 to March 26, 2026. This program is taught entirely in English."
+    },
+    {
+      "name": "Erasmus Mundus Master in Language and Communication Technologies (LCT)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "English",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Consortium Scholarship Round",
+      "url": "https://www.ehu.eus/en/web/master/master-language-and-communication-technologies",
+      "source_title": "Erasmus Mundus Master in Language and Communication Technologies (LCT) - UPV/EHU",
+      "notes": "As an Erasmus Mundus program, the scholarship deadline is typically in January/February 2026 via the LCT consortium website. Local admission via UPV/EHU follows the standard university calendar (March/May/July)."
+    },
+    {
+      "name": "Master in Computational Engineering and Intelligent Systems",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish (some English)",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Expected)",
+      "url": "https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes",
+      "source_title": "Máster Universitario en Ingeniería Computacional y Sistemas Inteligentes",
+      "notes": "Official 2026 dates not yet published. Expected Phase 1: March 2026. Expected Phase 2: May 2026. Taught primarily in Spanish, with some support/materials in English."
+    },
+    {
+      "name": "Master in Computer Engineering (Ingeniería Informática)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Basque | Spanish (some English)",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Expected)",
+      "url": "https://www.ehu.eus/es/web/master/master-ingenieria-informatica",
+      "source_title": "Máster Universitario en Ingeniería Informática",
+      "notes": "Official 2026 dates not yet published. Expected Phase 1: March 2026. This degree qualifies for the regulated profession of Computer Engineer in Spain."
+    }
+  ],
+  "links": [
+    "https://www.ehu.eus/en/web/masterrak-eta-graduondokoak/university-masters-degrees/pre-enrolment-and-admission/pre-enrolment-and-admission",
+    "https://www.ehu.eus/en/web/master/master-language-analysis-processing",
+    "https://www.ehu.eus/es/web/master/master-ingenieria-computacional-sistemas-inteligentes"
+  ],
+  "last_checked": "2025-12-14"
+}

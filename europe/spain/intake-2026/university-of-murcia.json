@@ -1,0 +1,86 @@
+{
+  "university": "University of Murcia",
+  "search_year": 2026,
+  "programs": [
+    {
+      "name": "Máster Universitario en Ingeniería Informática (Master in Computer Engineering)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Estimated)",
+      "url": "https://www.um.es/web/estudios/masteres/ingenieria-informatica",
+      "source_title": "Máster Universitario en Ingeniería Informática - UMU",
+      "notes": "Official 2026 dates not yet published. Based on 2025, Phase 1 is expected to run from approx. March 11 to April 23, 2026."
+    },
+    {
+      "name": "Máster Universitario en Inteligencia Artificial (Master in Artificial Intelligence)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Estimated)",
+      "url": "https://www.um.es/web/estudios/masteres/inteligencia-artificial",
+      "source_title": "Máster Universitario en Inteligencia Artificial - UMU",
+      "notes": "Official 2026 dates not yet published. Expected Phase 1: mid-March to late April 2026. This program is taught in a 'Virtual Synchronous' (online) modality."
+    },
+    {
+      "name": "Máster Universitario en Ciberseguridad (Master in Cybersecurity)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "English",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Estimated)",
+      "url": "https://www.um.es/web/estudios/masteres/ciberseguridad",
+      "source_title": "Máster Universitario en Ciberseguridad - UMU",
+      "notes": "Official 2026 dates not yet published. Expected Phase 1: mid-March to late April 2026. This program is taught in English and in a 'Virtual Synchronous' (online) modality."
+    },
+    {
+      "name": "Máster Universitario en Tecnologías de Análisis de Datos Masivos: Big Data (Master in Big Data Technologies)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 1 (Estimated)",
+      "url": "https://www.um.es/web/estudios/masteres/big-data",
+      "source_title": "Máster Universitario en Tecnologías de Análisis de Datos Masivos: Big Data - UMU",
+      "notes": "Official 2026 dates not yet published. Expected Phase 1: mid-March to late April 2026. This is a face-to-face program."
+    },
+    {
+      "name": "All Master's Programs (General Dates)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish | English",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 2 (Estimated)",
+      "url": "https://preinscripcionmaster.um.es/",
+      "source_title": "Preinscripción Máster - Universidad de Murcia",
+      "notes": "Based on 2025, Phase 2 is expected to run from approx. June 1 to June 18, 2026."
+    },
+    {
+      "name": "All Master's Programs (General Dates)",
+      "field": "Computer Science / Artificial Intelligence / Related",
+      "language": "Spanish | English",
+      "intake": "Fall 2026",
+      "app_open": "Not found",
+      "app_close": "Not found",
+      "round": "Phase 3 (Estimated)",
+      "url": "https://preinscripcionmaster.um.es/",
+      "source_title": "Preinscripción Máster - Universidad de Murcia",
+      "notes": "Based on 2025, Phase 3 is expected to run from approx. July 11 to July 18, 2026."
+    }
+  ],
+  "links": [
+    "https://preinscripcionmaster.um.es/",
+    "https://www.um.es/web/estudios/masteres/ingenieria-informatica",
+    "https://www.um.es/web/estudios/masteres/inteligencia-artificial",
+    "https://www.um.es/web/estudios/masteres/ciberseguridad",
+    "https://www.um.es/web/estudios/masteres/big-data"
+  ],
+  "last_checked": "2025-12-14"
+}
