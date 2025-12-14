@@ -1,0 +1,90 @@
+{
+  "city": "Brno, Czech Republic",
+  "date_of_research": "2024-12-14",
+  "exchange_rate": {
+    "local_to_usd": 0.0416,
+    "source": "Estimated Market Rate (1 USD = 24.00 CZK)",
+    "date": "2024-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 5500,
+        "range_local": [4700, 7000],
+        "value_usd": 229,
+        "source": [
+          {"name": "Masaryk University Dorms", "url": "https://www.skm.muni.cz/en/accommodation/price-list", "date": "2024-04-11"},
+          {"name": "VUT Dorms", "url": "https://www.vut.cz/en/cooperation/welcome-service/guide/costs", "date": "2025-01-01"}
+        ]
+      },
+      "food_services": {
+        "value_local": 5500,
+        "value_usd": 229,
+        "notes": "Mainly cooking at home + University Canteen (Menza) lunches (~85 CZK/meal)."
+      },
+      "transport_entertainment": {
+        "value_local": 800,
+        "value_usd": 33,
+        "notes": "Student Monthly Pass (275 CZK) + Low cost entertainment."
+      },
+      "total_monthly": {
+        "value_local": 13400,
+        "value_usd": 558
+      }
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 11500,
+        "range_local": [9500, 13500],
+        "value_usd": 479,
+        "source": [
+          {"name": "Student Room Flat", "url": "https://student-room-flat.com/brno-accommodation/", "date": "2024-12-10"}
+        ]
+      },
+      "food_services": {
+        "value_local": 8500,
+        "value_usd": 354,
+        "notes": "Mix of home cooking and casual dining out."
+      },
+      "transport_entertainment": {
+        "value_local": 2000,
+        "value_usd": 83,
+        "notes": "Student Pass + Gym + Cinema."
+      },
+      "total_monthly": {
+        "value_local": 23600,
+        "value_usd": 983
+      }
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 19000,
+        "range_local": [16000, 24000],
+        "value_usd": 792,
+        "source": [
+          {"name": "Expats.cz Realty", "url": "https://www.expats.cz/praguerealestate/for-rent/apartments/brno", "date": "2024-12-10"}
+        ]
+      },
+      "food_services": {
+        "value_local": 13000,
+        "value_usd": 542,
+        "notes": "Eating out frequently, delivery services, premium groceries."
+      },
+      "transport_entertainment": {
+        "value_local": 4500,
+        "value_usd": 188,
+        "notes": "Adult Pass (if >26) + Taxi/Uber + Trips."
+      },
+      "total_monthly": {
+        "value_local": 38100,
+        "value_usd": 1588
+      }
+    }
+  },
+  "summary": "For a Master's student, the **Balanced** scenario (~$980/month) is the most realistic. While dorms are cheaper, they are often overcrowded and hard to book for non-Erasmus students. Private rooms in shared flats offer the best balance of study environment and cost. Note that if you are over 26, you lose transport discounts.",
+  "main_sources": [
+    {"name": "DPMB Transport", "url": "https://www.dpmb.cz/en/travel-card", "date": "2024-12-14"},
+    {"name": "VZP Insurance", "url": "https://www.vzpforforeigners.cz/", "date": "2024-12-14"},
+    {"name": "MUNI Accommodation", "url": "https://www.skm.muni.cz/", "date": "2024-04-11"}
+  ]
+}
