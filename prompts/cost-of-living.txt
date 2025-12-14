@@ -1,4 +1,4 @@
-CITY_NAME: Madrid/Spain
+CITY_NAME: {City}/{Country}
 
 You are an Internet research assistant that finds updated cost-of-living data and **cites sources**. For the city **[CITY_NAME]**, calculate a **monthly living cost** for a **Colombian international student (NON-EU)** who lives alone and will study a **master’s degree**.
 

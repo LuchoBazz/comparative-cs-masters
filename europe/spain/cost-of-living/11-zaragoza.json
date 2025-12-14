@@ -1,0 +1,86 @@
+{
+  "city": "Zaragoza",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 300,
+        "range_local": [250, 340],
+        "value_usd": 351,
+        "source": [{"name": "Idealista / Erasmus Play", "url": "https://erasmusplay.com/es/zaragoza.html", "date": "2025-12-10"}]
+      },
+      "food_services": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Basic groceries. Utilities shared (heating costs managed)."
+      },
+      "transport_entertainment": {
+        "value_local": 60,
+        "value_usd": 70,
+        "notes": "Abono Joven (~15.50€) + Low cost tapas."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 600, "value_usd": 702}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 400,
+        "range_local": [350, 480],
+        "value_usd": 468,
+        "source": [{"name": "Fotocasa / Idealista", "url": "https://www.fotocasa.es/es/compartir/pisos/zaragoza-capital/todas-las-zonas/l", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 290,
+        "value_usd": 339,
+        "notes": "Groceries (240€) + Utils (50€ - winter heating)."
+      },
+      "transport_entertainment": {
+        "value_local": 110,
+        "value_usd": 129,
+        "notes": "Transport + 'El Tubo' tapas/dining."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 53
+      },
+      "total_monthly": {"value_local": 845, "value_usd": 988}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 750,
+        "range_local": [600, 900],
+        "value_usd": 878,
+        "source": [{"name": "Nodis / Aragondigital", "url": "https://nodis.es/residencia/zaragoza/", "date": "2025-06-18"}]
+      },
+      "food_services": {
+        "value_local": 420,
+        "value_usd": 491,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Transport + Nightlife/Trips to Pyrenees."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 64
+      },
+      "total_monthly": {"value_local": 1425, "value_usd": 1667}
+    }
+  },
+  "summary": "Zaragoza is a hidden gem for students: a big city with small-town prices. A budget of ~800 € (Balanced) allows for a great lifestyle near the Campus San Francisco. It is strategically located between Madrid and Barcelona (1h by train) but costs 30-40% less.",
+  "main_sources": [
+    {"name": "Ayuntamiento de Zaragoza", "url": "https://www.zaragoza.es/sede/servicio/noticia/337350", "date": "2025-12-30"},
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/zaragoza-zaragoza/", "date": "2025-12-14"},
+    {"name": "Erasmus Play", "url": "https://erasmusplay.com/es/zaragoza.html", "date": "2025-12-10"}
+  ]
+}

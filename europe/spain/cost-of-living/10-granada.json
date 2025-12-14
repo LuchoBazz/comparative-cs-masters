@@ -1,0 +1,86 @@
+{
+  "city": "Granada",
+  "date_of_research": "2025-12-14",
+  "exchange_rate": {
+    "local_to_usd": 1.17,
+    "source": "Market Snapshot (Dec 2025)",
+    "date": "2025-12-14"
+  },
+  "scenarios": {
+    "economic": {
+      "rent": {
+        "value_local": 280,
+        "range_local": [230, 320],
+        "value_usd": 328,
+        "source": [{"name": "Erasmus Play / UGR", "url": "https://erasmusplay.com/es/granada.html", "date": "2025-12-12"}]
+      },
+      "food_services": {
+        "value_local": 190,
+        "value_usd": 222,
+        "notes": "Shopping at 'Dani' (cheapest super in Spain). Low utility share."
+      },
+      "transport_entertainment": {
+        "value_local": 50,
+        "value_usd": 59,
+        "notes": "Bono Universitario (~0.33€/trip) + Tapas (free with drink)."
+      },
+      "health_insurance": {
+        "value_local": 40,
+        "value_usd": 47
+      },
+      "total_monthly": {"value_local": 560, "value_usd": 655}
+    },
+    "balanced": {
+      "rent": {
+        "value_local": 380,
+        "range_local": [330, 450],
+        "value_usd": 445,
+        "source": [{"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/granada-granada/", "date": "2025-12-14"}]
+      },
+      "food_services": {
+        "value_local": 270,
+        "value_usd": 316,
+        "notes": "Groceries (220€) + Utils (50€ - heating/AC)."
+      },
+      "transport_entertainment": {
+        "value_local": 110,
+        "value_usd": 129,
+        "notes": "Transport + Frequent tapas/dining."
+      },
+      "health_insurance": {
+        "value_local": 45,
+        "value_usd": 53
+      },
+      "total_monthly": {"value_local": 805, "value_usd": 942}
+    },
+    "comfort": {
+      "rent": {
+        "value_local": 750,
+        "range_local": [650, 900],
+        "value_usd": 878,
+        "source": [{"name": "Uniscopio / Pink & Lemon", "url": "https://pinkandlemon.es/residencia-universitaria-granada-precios/", "date": "2025-12-01"}]
+      },
+      "food_services": {
+        "value_local": 400,
+        "value_usd": 468,
+        "notes": "Premium dining + High utility usage."
+      },
+      "transport_entertainment": {
+        "value_local": 200,
+        "value_usd": 234,
+        "notes": "Transport + Trips to Sierra Nevada/Coast."
+      },
+      "health_insurance": {
+        "value_local": 55,
+        "value_usd": 64
+      },
+      "total_monthly": {"value_local": 1405, "value_usd": 1644}
+    }
+  },
+  "summary": "Granada is the quintessential student city: extremely affordable and walkable. A budget of ~800 € (Balanced) allows for a high quality of life. The 'tapas' culture significantly lowers food costs. Avoid private residences if on a budget, as they are disproportionately expensive compared to shared flats.",
+  "main_sources": [
+    {"name": "Idealista", "url": "https://www.idealista.com/alquiler-habitacion/granada-granada/", "date": "2025-12-14"},
+    {"name": "Transportes Rober", "url": "https://www.transportesrober.com/pdf/tarifas_01jul.pdf", "date": "2025-07-01"},
+    {"name": "Antena 3 News", "url": "https://www.antena3.com/novamas/vida/cesta-compra-mas-barata-espana-2025-supermercados-ciudades-mejores-precios_2025092968da6b80f10d3f0678242c12.html", "date": "2025-09-29"}
+  ]
+}
